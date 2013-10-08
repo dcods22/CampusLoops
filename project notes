@@ -1,0 +1,35 @@
+look up padding for opera
+organize and comment CSS for index
+work on CSS for template
+big phil keep on keeping on
+add only edu notes
+look at hyperlink stuff css index
+
+move SQL Query code to model php files using this naming convention
+lib_*table name*_model.php
+there should only be one for each table and all the functions should just add up, 
+more than probable that many are re-usable
+all SQL Query should be in this standard to prevent SQL injections
+prepare(), bindValue(), execute(), and fetch() or fetchall() if needed.
+
+-- Thread.php --
+Possible future features:
+make it so if the user posting was the last one to post there most recent post is edited to prevent double-posting
+leave this out for now, for debugging purposes plus it is less critical
+
+-- Subforum.php --
+major work needs to be done
+Big Phil is going to start on this, will post anything that needs to be added
+
+--update lib_add_forumtopics and lib_add_subforums so that existing topics and subforums respectively cannot be added again niggas. 
+
+---messaging---
+auto update with ajax so you can see messages live without refreshing
+see if other user is typing
+jump to top of page button in chat or only show 10 messages and must press to load more
+
+---book exachange system---
+3 tables
+1. books: has a list of the book isbn# and book info
+2. bookItems: each indiv copy of a book being sold sellerID, bookItemID-PK, price, posted date, class, subject
+3. bookcomments: commentID-AI bookItemID-PK senderID and commentText

@@ -1,0 +1,1144 @@
+/*HTML container*/
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	background: grey url('http://campusloops.com/images/gradient.png') top left repeat-x;
+	width: 100%;
+	margin: 0;
+	padding:0;
+	min-height: 800px;
+	min-width: 600px;
+	z-index:0;
+}
+
+/*entire header*/
+.header{
+	background: #840202; /* Old browsers */
+	background: -moz-linear-gradient(top,  #840202 0%, #a30303 11%, #c90000 100%); /* FF3.6+ */ /* 1F0101 difference first 2 967303 between second 2*/
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#840202), color-stop(11%,#a30303), color-stop(100%,#c90000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #840202 0%,#a30303 11%,#c90000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #840202 0%,#a30303 11%,#c90000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #840202 0%,#a30303 11%,#c90000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #840202 0%,#a30303 11%,#c90000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#840202', endColorstr='#c90000',GradientType=0 ); /* IE6-9 */
+	height:80px;
+	width:auto;
+	min-width: 1200px;
+	//margin-top:-15px;
+	//margin-left:-1%;
+	//padding-right:24px;
+	border-bottom:solid 1px #000;
+}
+
+/*first name in title*/
+.webName{
+	color: white;
+	float:left;
+	font-size:50px;
+	font-style:menu;
+	margin-left: 10px;
+	padding-top: 10px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+/*second name in title*/
+.schoolName{
+	color:black;
+	font-size:45px;
+	float:left;
+	padding-top:15px;
+	margin-left: 10px;
+}
+
+/*logout button*/
+#logout{
+	float:right;
+	margin-right: 20px;
+	margin-top: 15px;
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*profile picture*/
+#propic{
+	float:right;
+	height:50px;
+	width:50px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+li{
+	list-style: none;
+}
+
+input[type=text]:focus, input[type=password]:focus{   
+    border:2px solid #FFFF32;   
+} 
+
+fieldset{
+	display:none;
+}
+
+textarea{
+	resize: vertical;
+}
+
+.errmsg{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+}
+
+.odd{
+	background-color:#F0FFFF;
+	//color:#FFFFFF; 
+}
+
+.even{
+	background-color:#F5F5DC;
+}
+
+#askterik{
+	font-weight:bold;
+	color:#C80000;
+}
+
+.formDesc{
+	float:right;
+	padding-right:100px;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.button{
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/**************************************forum nav***********************************/
+
+.formSubjects{
+	float:left;
+	padding-top: 1%;
+	margin-left:-20px;
+	list-style: none;
+	color:white;
+	font-size:30px;
+//width:200px;
+}
+
+.formSubjects li{
+	padding-top: 5%;
+	padding-bottom: 5px;
+}
+
+.formSubjects li:hover{
+	color:#F24444;
+	cursor:pointer;
+}
+
+.formSubjects a{
+	text-decoration: none;
+	color:white;
+}
+
+.subforumlinks, .threads{
+	font-size: 25px;
+	color:#000;
+}
+
+.subformlinks, .threads li:hover, a:hover{
+	color:#F24444;
+}
+
+#editButton{
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*****************************************nav bar**************************************/
+
+.nav{
+	width:auto;
+}
+
+.nav ul {
+	list-style-type:none;
+	position:relative;
+	display:block;
+	height:33px;
+	min-width: 1160px;
+	width:auto;
+	font-size:.8em;
+	font-weight:bolder;
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #3f3f3f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#3f3f3f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 0%,#3f3f3f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#3f3f3f',GradientType=0 ); /* IE6-9 */
+	text-shadow: 1px 1px 3px #aaa;
+	font-family:Verdana,Helvetica,Arial,sans-serif;
+	border-bottom:1px solid #000;
+	margin-top:0px;
+	margin-left: 0px;
+}
+
+.nav li {
+	display:block;
+	float:left;
+}
+
+.nav li:hover{
+	background-color:red;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+.nav li a {
+	float:left;
+	color:white;
+	text-decoration:none;
+	height:24px;
+	padding:9px 15px 0;
+	font-weight:normal;
+}
+
+.searchnav{
+	border:0px solid #000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	width:200px;
+	height:20px;
+	padding-left:10px;
+}
+
+.nav .navsearch{
+	padding-top:3px;
+	float:right;
+}
+
+.nav .navsearch:hover{
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #3f3f3f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#3f3f3f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 0%,#3f3f3f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#3f3f3f',GradientType=0 ); /* IE6-9 */
+}
+
+.nav .navsearch:focus{
+	border:2px solid #FFFF32; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}	
+
+/**************************************************body***********************************************/
+
+/*holder for nav topics and body*/
+.mainholder{
+	min-width:1000px;
+	width:1200px;
+	margin: auto auto auto auto;
+	z-index:0;
+}	
+
+/*holder for the body*/
+.bodyHolder{
+	min-height:700px;
+	min-width:500px;
+	height:100%;
+	width:900px;
+	background-color: white;
+	margin: 40px auto auto auto;
+	padding-bottom: 30px;
+	margin-bottom:75px;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border: solid 1px #000;
+	z-index:0;
+}
+
+/*font inside the body*/
+.bodyFont{
+	padding-left: 45px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-right: 45px;
+	min-height:700px;
+	min-width:800px;
+	height:100%;
+	width:800px;
+	position:relative;
+	border-radius: 40px;
+	z-index:0;
+
+}
+
+/*footer for the template*/
+.footerWrapper{
+	position:relative;
+	margin: -75px auto;
+	text-align:Center;
+	//z-index: -30;
+	width:auto;
+	min-width:1200px;
+	background: #5e5e5e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5e5e5e 0%, #5e5e5e 46%, #939393 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e5e5e), color-stop(46%,#5e5e5e), color-stop(100%,#939393)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5e5e5e 0%,#5e5e5e 46%,#939393 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5e5e5e 0%,#5e5e5e 46%,#939393 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5e5e5e 0%,#5e5e5e 46%,#939393 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5e5e5e 0%,#5e5e5e 46%,#939393 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#939393',GradientType=0 ); /* IE6-9 */
+	border-top: 1px solid #000;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.footer{
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	padding-top:15px;
+	width: auto;
+	height:50px;
+	text-align: center;
+	border-right: 1px solid black;
+}
+
+.footerInfo{
+	margin: auto auto auto auto;
+	text-align:center;
+	width:900px;
+	min-width:500px;
+	padding-left:150px;
+}
+
+.footerLast{
+	padding-left:10px;
+	//padding-right:10px;
+	float:left;
+	padding-top:15px;
+	width: auto;
+	height:50px;
+	text-align: center;
+	//font-size:15px;
+	//min-width: 200px;
+	//padding-bottom:25px;
+}
+
+.postButton{
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/**************************************************end of template*************************************/
+
+.addpost{
+	margin: auto auto auto auto;
+}
+
+.shownew{
+	display:inline;
+	padding-left:10px;
+}
+
+.hidenew{
+	display:none;
+}
+
+.mailImage{
+	//padding-top:1px;
+}
+
+/********************************************profile update page*******************************/
+
+/*form for update*/
+.profupdate{
+	margin:auto auto auto auto;
+	padding-left: 30px;
+}
+
+/*form to go to edit page*/
+.edit{
+	float:right;
+}
+
+/*update button*/
+.update{
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*input for the update form*/
+.profupdate input{
+	width:200px;
+}
+ /*title for the update form*/
+.profchange{
+	font-size: 20px;
+}
+
+.profileInfo{
+	float:left;
+	width:210px;
+	min-height:600px;
+	padding-left:10px;
+	//background-color:blue;
+}
+
+.profileExtras{
+	float:right;
+	width:550px;
+	min-height: 600px;
+}
+
+.profileTables{
+	text-align:center;
+}
+
+.profileTables th{
+	border-bottom: 1px solid #DF0101;
+	border-left: 10px solid white;
+	border-right: 10px solid white;
+	padding-bottom: 4px;
+}
+
+.profileTables td{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.profileTables a:hover{
+	color:#848484;
+}
+
+.sellEdition{
+	width:10px;
+}
+
+/********************************************messages.php*****************************************/
+.messnav a:hover{
+	color:#B0B0B0;
+}
+
+.messnav ul {
+	list-style-type:none;
+	position:relative;
+	display:block;
+	font-size:.8em;
+	font-family:Verdana,Helvetica,Arial,sans-serif;
+	}
+
+.messnav li {
+	display:block;
+	float:left;
+	border:1px solid #000;
+	padding-right:15px;
+	padding-left:15px;
+	background-color: #B40404;
+}
+
+.messnav li:hover{
+	background-color:#FAEBD7;
+}
+
+.messnav li a {
+	float:left;
+	color:#FFF;
+	text-decoration:none;
+	height:24px;
+	padding:9px 15px 0;
+	font-weight:normal;
+}
+
+.messLabel{
+	text-align:center;
+}
+
+.newmessage{
+	padding-top:60px;
+	text-align:center;
+}
+
+.messtable{
+	text-align:center;
+	width:100%;
+}
+
+.messtable tbody tr:hover{
+	background-color:#FAEBD7;
+	border-bottom-color:#FFF;
+	border-top-color:#FFF;
+}
+
+.messtable thead{
+	background-color:#A9A9A9;
+}
+
+.messtable a{
+	color:#000;
+}
+
+.messtable th{
+}
+
+.messtable a:hover{
+	color:#B0B0B0;
+}
+
+.messtable td{
+	text-align:center;
+}
+
+#receiver{
+	width:80%;
+}
+
+#subject{
+	width:80%;
+}
+
+#bodymessage{
+	width:80%;
+	
+}
+
+.sendmessage{
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.deletemessage{
+    padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	float: right;
+}
+
+.senderEmail{
+	background: white;
+	color: Black;
+	font-weight:bold;
+	padding:5px;
+	text-align:center;
+}
+.receiverEmail{
+	background: white; 
+	color:Black;
+	font-weight:bold;
+	padding:5px;
+	text-align:center;
+}
+.messageSubject {
+	border:solid 1px #DEDEDE;
+	background:##D8D8D8
+	color:#222222;
+	padding:6px;
+	text-align:center;
+}
+
+.chatTable{
+	width:100%;
+	margin-top:30px;
+}
+
+.sender{
+	float:left;
+	width:450px;
+	margin-left:20px;
+}
+
+.receiver{
+	float:right;
+	margin-right:20px;
+	width:450px;
+}
+
+.senderPic{
+	float:left;
+	margin:auto auto auto auto;
+}
+
+.receiverPic{
+	float:right;
+	margin:auto auto auto auto;
+	margin-right:20px;
+}
+
+.sendTime{
+	float:left;	
+	width:220px;
+}
+
+.receiverName{
+	color:#3b5998;
+	float:right;
+}
+
+.receiverText{
+	padding-bottom:10px;
+	float:right;
+	max-width:300px;
+	width:100%;
+}
+
+.receiverTextName{
+	float:right;
+}
+
+.receiverTextAlone{
+	padding-bottom:10px;
+	padding-right:90px;
+	float:right;
+}
+
+.senderName{
+	color:#3b5998;
+	float:left;
+}
+
+.senderText{
+	padding-bottom:10px;
+	float:left;
+	max-width:300px;
+	width:100%;
+}
+
+.senderTextWords{
+	float:left;
+}
+
+.senderTextAlone{
+	padding-bottom:10px;
+	padding-left:74px;
+	float:left;
+}
+
+.sendTextArea{
+	margin-top:10px;
+}
+
+.sendMessageButton{
+    padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.emailAjax {
+	display: block;
+	margin-top:-10px;
+	margin-left:-10px;
+}
+
+/************************************* Book Exchange ****************************************/
+
+.booknav{
+	width:auto;
+}
+
+.booknav ul {
+	list-style-type:none;
+	position:relative;
+	display:block;
+	height:33px;
+	min-width: 1160px;
+	width:auto;
+	font-size:.8em;
+	font-weight:bolder;
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #3f3f3f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#3f3f3f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 0%,#3f3f3f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 0%,#3f3f3f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#3f3f3f',GradientType=0 ); /* IE6-9 */
+	text-shadow: 1px 1px 3px #aaa;
+	font-family:Verdana,Helvetica,Arial,sans-serif;
+	border-bottom:1px solid #000;
+	margin-top:-13px;
+	margin-left: 0px;
+}
+
+.booknav li {
+	display:block;
+	float:left;
+}
+
+.booknav li:hover{
+	background-color:red;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+.booknav li a {
+	float:left;
+	color:white;
+	text-decoration:none;
+	height:24px;
+	padding:9px 15px 0;
+	font-weight:normal;
+}
+
+/*************** Book Exchange Home ****************/
+
+.bookExchangeTitle{
+	font-size:30px;
+	font-weight:bold;
+	color: #B40404;
+}
+
+.addBook{
+	float:right;
+	color:#000;
+	text-decoration: none;
+}
+
+.exchangeInfo{
+	font-size:20px;
+}
+
+#bookSearch{
+	border-radius:10px;
+	padding-left:8px;
+	width:300px;
+}
+
+.searchButton{
+   padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/************** Search ************/
+
+.searchResTable{
+	width:100%;
+	height:100%;
+}
+
+.searchResTable th{
+	border-bottom:2px solid #000;
+}
+
+.searchPic{
+	height:70px;
+	width:60px;
+	padding:2px 2px 2px 2px;
+	text-align:center;
+}
+
+.searchTitle{
+	width:450px;
+	height:100%;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:center;
+}
+
+.searchAuthor{
+	width:150px;
+	text-align:center;
+}
+
+.searchEdition{
+	text-align:center;
+	width:70px;
+}
+
+.searchISBN{
+	width:100px;
+	text-align:center;
+}
+
+.searchBookAuthor{
+	padding-left:15px;
+	text-align:center;
+}
+
+.searchBookTitle{
+	padding-left:15px;
+	text-align:center;
+}
+
+.searchPicCol{
+	width:110px;
+	border-bottom: 1px solid #000;
+}
+
+.searchTitleCol{
+	width:800px;
+	border-bottom: 1px solid #000;
+}
+
+.searchAuthorCol{
+	width:200px;
+	border-bottom: 1px solid #000;
+}
+
+#searchButton{
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/**************** Copy View ********************/
+
+.copyHolder{
+	height:100%;
+	width:800px;
+	min-height:300px;
+}
+
+.copyPic{
+	height:300px;
+	width:250px;
+	float:left;
+	padding-right:20px;
+}
+
+.copyInfo{
+	font-size:20px;
+	width:100%;
+	height:100%;
+	max-width:800px;
+	min-height:300px;
+	padding-top:30px;
+	
+}
+
+.offerForm{
+	padding-top:30px;
+	text-align:center;
+}
+
+#offerPrice{
+	margin-left:10px;
+	margin-bottom:10px;
+	width:400px;
+	height:15px;
+}
+
+#offerMessage{
+	margin-left:10px;
+	margin-bottom:10px;
+	width:400px;
+}
+
+.labelOfferPrice{
+	font-size:20px;
+	margin-right:24px;
+}
+
+.labelOfferMessage{
+	font-size:20px;
+	vertical-align:top;
+	padding-top:-10px;
+}
+
+
+/****************** view request ***********************/
+
+.reqPic{
+	float:left;
+	width:275px;
+	height:300px;
+}
+
+.reqInfo{
+	font-size:20px;
+	width:100%;
+	height:100%;
+	max-width:800px;
+	min-height:300px;
+	padding-top:30px;
+}
+
+.deleteRequestForm{
+	float:right;
+}
+
+.deleteRequestButton{
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/******************* bookView *************************/
+
+.bookViewTitle{
+	font-size:20px;
+	font-weight:bold;
+	color: #B40404;
+}
+
+.viewTable{
+	width:100$;
+	height:100%;
+	text-align:center;
+}
+
+.viewTable th{
+	border-bottom:2px solid #000;
+}
+.bookViewSeller{
+	width:200px;
+	text-align:center;
+}
+
+.bookViewPrice{
+	width:100px;
+	text-align:center;
+}
+
+.bookViewCondition{
+	width:200px;
+	text-align:center;
+}
+
+.bookViewDatePosted{
+	width:250px;
+	text-align:center;
+}
+
+.viewDesc{
+	font-size:20px;
+	color: #B40404;
+}
+
+/******************* book add ********************/
+
+.addDescTitle{
+	text-align:center;
+	font-size:20px;
+}
+
+.bookAdd{
+	margin-left:50px;
+	margin-top:40px;
+}
+
+.bookRequest{
+	margin-left:50px;
+	margin-top:40px;
+}
+
+.addBookButton{
+	padding: 6px 10px;
+    background: #B40404;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #585858;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#addtitle{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#addauthor{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#addISBN{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#addedition{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#addpicture{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#addcondition{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#addprice{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#addsubject{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#addother{
+	padding-left:6px;
+	border-radius:3px;
+	height:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#adddesc{
+	padding-left:6px;
+	border-radius:3px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+/****************** bookSubjects *****************/
+
+.bookSubject{
+	float:left;
+	font-size:30px;
+	font-weight:bold;
+	color: #B40404;
+	width:200px;
+	margin-right:50px;
+	margin-bottom:50px;
+}
